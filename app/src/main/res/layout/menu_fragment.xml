@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#010101"
+    android:id="@+id/menuLayout">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/game_name"
+        android:id="@+id/textView"
+        android:textColor="#0500ff"
+        android:textSize="32dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:typeface="monospace" />
+
+    <Button
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:text="New Game"
+        android:id="@+id/button_nuGame"
+        android:typeface="sans"
+        android:textStyle="bold"
+        android:textColor="#2200ff"
+        android:layout_above="@+id/button_highScore"
+        android:layout_centerHorizontal="true"
+        android:background="#00ff22"
+        android:ellipsize="end" />
+
+    <Button
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:text="Highscore"
+        android:id="@+id/button_highScore"
+        android:textStyle="bold"
+        android:layout_above="@+id/button_howto"
+        android:layout_centerHorizontal="true"
+        android:background="#fff800" />
+
+    <Button
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:text="How to play"
+        android:id="@+id/button_howto"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/button_highScore"
+        android:layout_alignStart="@+id/button_highScore"
+        android:background="#ffffff" />
+
+    <Button
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:text="QUIT"
+        android:id="@+id/button_quit"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/button_howto"
+        android:layout_alignStart="@+id/button_howto"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:background="#ff000b" />
+</RelativeLayout>

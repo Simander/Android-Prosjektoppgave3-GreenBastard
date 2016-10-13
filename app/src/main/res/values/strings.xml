@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">RollABall</string>
+
+    <string name="game_name">RollABall</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="highscores">Highscores</string>
+    <string name="rules">Rules</string>
+    <string name="summary">Summary</string>
+    <string name="ruleNo1">You control the green bastard, by tapping on the screen in the direction you want him to go!</string>
+    <string name="ruleNo2">Avoid the red bastard at all costs, if he hit you, it is game over!</string>
+    <string name="ruleNo3">Collect the yellow coins to get points!</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
