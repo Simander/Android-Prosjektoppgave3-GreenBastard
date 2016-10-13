@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/RollABall.iml" filepath="$PROJECT_DIR$/RollABall.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GreenBastardo.iml" filepath="$PROJECT_DIR$/GreenBastardo.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
